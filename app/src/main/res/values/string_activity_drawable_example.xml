@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_drawable_example_imageview_small_content">
+        Small
+    </string>
+    <string name="activity_drawable_example_imageview_medium_content">
+        Small Medium
+    </string>
+    <string name="activity_drawable_example_imageview_large_content">
+        Small Medium Large
+    </string>
+
+</resources>

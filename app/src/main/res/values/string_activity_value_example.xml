@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string_activity_value_example_textview_was_is_your_name">
+        What is your name?
+    </string>
+
+    <string name="string_activity_value_example_textview_hoe_do_you_feel_today">
+        How do you feel today?
+    </string>
+
+    <string name="string_activity_value_example_textview_name_hint">
+        Name
+    </string>
+
+    <string name="string_activity_value_example_radiobutton_great">
+        Great :&#41;
+    </string>
+
+    <string name="string_activity_value_example_radiobutton_upset">
+        Upset :&#40;
+    </string>
+
+    <string name="string_activity_value_example_radiobutton_tearful">
+        Tearful :&#44;&#40;
+    </string>
+
+    <string name="string_activity_value_example_radiobutton_newletters_subscription">
+        Newsletter Subscription
+    </string>
+
+    <string name="string_activity_value_example_radiobutton_accept_the_agreement">
+         Accept the agreement
+    </string>
+
+
+    <string-array name="string_activity_value_example_spinner_color_options">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+    </string-array>
+
+</resources>

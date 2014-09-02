@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.vable.android.androidresourceslessons" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuExampleActivity"
+            android:label="@string/title_activity_menu_example" >
+        </activity>
+        <activity
+            android:name=".DrawableExampleActivity"
+            android:label="@string/title_activity_drawable_example" >
+        </activity>
+        <activity
+            android:name=".AlternativeResourcesExampleActivity"
+            android:label="@string/title_activity_alternative_resources_example" >
+        </activity>
+        <activity
+            android:name=".ValuesExampleActivity"
+            android:label="@string/title_activity_values_example" >
+        </activity>
+        <activity
+            android:name=".AlternativeDrawableExampleActivity"
+            android:label="@string/title_activity_alternative_drawable_example" >
+        </activity>
+        <activity
+            android:name=".AlternativeDrawableExample2Activity"
+            android:label="@string/title_activity_alternative_drawable_example2" >
+        </activity>
+        <activity
+            android:name=".AlternativeDrawableExample3Activity"
+            android:label="@string/title_activity_alternative_drawable_example3" >
+        </activity>
+    </application>
+
+</manifest>

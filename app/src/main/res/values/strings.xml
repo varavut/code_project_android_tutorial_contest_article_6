@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidResourcesLessons</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_activity_not_found_message">Activity not found: %s</string>
+    <string name="listitem_textview_default_activity_title">Activity Title</string>
+    <string name="listitem_textview_activity_class_name">Activity name</string>
+    <string name="title_activity_menu_example">MenuExampleActivity</string>
+    <string name="title_activity_drawable_example">DrawableExampleActivity</string>
+    <string name="title_activity_values_example">ValuesExampleActivity</string>
+    <string name="title_activity_alternative_resources_example">AlternativeResourcesExampleActivity</string>
+    <string name="textview_greeting">Hello, John</string>
+    <string name="title_activity_alternative_drawable_example">AlternativeDrawableExampleActivity</string>
+    <string name="title_activity_alternative_drawable_example2">AlternativeDrawableExample2Activity</string>
+    <string name="title_activity_alternative_drawable_example3">AlternativeDrawableExample3Activity</string>
+
+</resources>

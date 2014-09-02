@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_dark">#252525</color>
+    <color name="text_light">#DEDEDE</color>
+    <color name="text_warn">#FF0000</color>
+    <color name="text_safe">#267F00</color>
+    <color name="text_info">#FF831E</color>
+</resources>

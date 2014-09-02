@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.vable.android.androidresourceslessons.ValuesExampleActivity">
+
+    <LinearLayout
+        android:isScrollContainer="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_activity_value_example_textview_was_is_your_name"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/activity_values_example_title_text_size" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_values_example_question_margin_bottom"
+            android:hint="@string/string_activity_value_example_textview_name_hint"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/text_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_activity_value_example_textview_hoe_do_you_feel_today"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/activity_values_example_title_text_size" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_values_example_question_margin_bottom"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_activity_value_example_radiobutton_great"
+                android:textColor="@color/text_safe" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_activity_value_example_radiobutton_upset"
+                android:textColor="@color/text_info" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/string_activity_value_example_radiobutton_tearful"
+                android:textColor="@color/text_warn" />
+        </RadioGroup>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_values_example_question_margin_bottom"
+            android:text="@string/string_activity_value_example_radiobutton_newletters_subscription"
+            android:textColor="@color/text_dark" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_values_example_question_margin_bottom"
+            android:text="@string/string_activity_value_example_radiobutton_accept_the_agreement"
+            android:textColor="@color/text_dark" />
+
+        <Spinner
+            android:id="@+id/spinner_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_values_example_question_margin_bottom"
+            android:textColor="@color/text_dark" />
+
+
+    </LinearLayout>
+
+</ScrollView>
